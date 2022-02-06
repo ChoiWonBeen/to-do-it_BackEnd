@@ -7,6 +7,6 @@ module.exports = {
     host: host,
     user: "root",
     password: process.env.DB_PASSWORD,
-    database: "chat",
+    database: "todoit",
   }),
 };
