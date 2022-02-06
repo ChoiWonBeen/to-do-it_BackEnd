@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/ChoiWonBeen/to-do-it_BackEnd/issues"
   },
-  "homepage": "https://github.com/ChoiWonBeen/to-do-it_BackEnd#readme"
+  "homepage": "https://github.com/ChoiWonBeen/to-do-it_BackEnd#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15"
+  }
 }
