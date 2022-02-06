@@ -6,14 +6,6 @@ const app = express();
 
 app.set('port', 3000);
 
-app.get("/messages", (req, res) => {
-    db.connection.query( `SELECT * FROM messages`, (err, results)=>{
-        if(err)
-          console.log(err);
-        res.send(results);
-    });
-});
-
 app.get("/users", (req, res) => {
     db.connection.query( `SELECT * FROM users`, (err, results)=>{
         if(err)
